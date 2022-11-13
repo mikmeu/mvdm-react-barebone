@@ -85,17 +85,20 @@ Name list:
 | 12 | Row with a col 80% and 20% |
 
 #### Cells
-| Type | Description |
-| ---- | ----------- |
-| text | Just text |
-| h1 | heading 1 |
-| h2 | heading 2 |
-| h3 | heading 3 |
-| h4 | heading 4 |
-| h5 | heading 5 |
-| image | An image |
-| iframe | An iframe |
-
+| Type | Description | Extra options |
+| ---- | ----------- | ------------- |
+| text | Just text | |
+| h1 | heading 1 | |
+| h2 | heading 2 | |
+| h3 | heading 3 | | 
+| h4 | heading 4 | |
+| h5 | heading 5 | |
+| image | An image | src alt |
+| iframe | An iframe | |
+| link | An link | href text |
+| button | A button | href text |
+| list | List array | |
+| table | A table | heading (array), rows (array of arrays) |
 ### Paragraph
 (no settings)
 ### Table

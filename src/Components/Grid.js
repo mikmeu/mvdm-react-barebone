@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Grid({ num, children }) {
+function Grid({ num, children, ...otherProps }) {
     return (
-        <div className={"grid grid-"+num}>
+        <div className={"grid grid-"+num} {...otherProps}>
             {children}
         </div>
     );
