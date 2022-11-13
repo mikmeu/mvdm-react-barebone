@@ -1,7 +1,6 @@
 import React from 'react';
 import Icon from './Icon';
-function Message(props) {
-    const { type, children } = props;
+function Message({ type, children }) {
     return (
         <div className={"message message-"+type}>
             <Icon name="link" color="#999" /> {children}
