@@ -71,7 +71,31 @@ Name list:
 #### Rows
 | Type | Layout |
 | ---- | ------ |
-| 1 | Test |
+| 1 | Items are 100% of the layout |
+| 2 | Row with 2 50% cols |
+| 3 | Row with 3 30% cols |
+| 4 | Row with 4 25% cols |
+| 5 | Row with 5 20% cols |
+| 6 | Row with 6 15% cols |
+| 7 | Row with a col 30% and 70% |
+| 8 | Row with a col 25% and 75% |
+| 9 | Row with a col 20% and 80% |
+| 10 | Row with a col 70% and 30% |
+| 11 | Row with a col 75% and 25% |
+| 12 | Row with a col 80% and 20% |
+
+#### Cells
+| Type | Description |
+| ---- | ----------- |
+| text | Just text |
+| h1 | heading 1 |
+| h2 | heading 2 |
+| h3 | heading 3 |
+| h4 | heading 4 |
+| h5 | heading 5 |
+| image | An image |
+| iframe | An iframe |
+
 ### Paragraph
 (no settings)
 ### Table
